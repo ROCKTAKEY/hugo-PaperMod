@@ -79,3 +79,18 @@ article.first-entry.home-info img {
     display: inline;
     margin-right: 50px;
 }
+
+@media screen and (max-width: 480px) {
+    article.first-entry.home-info {
+        flex-direction: column;
+    }
+
+    article.first-entry.home-info img {
+        margin: auto;
+    }
+
+    article.first-entry.home-info span {
+        margin: auto;
+        text-align: center;
+    }
+}
