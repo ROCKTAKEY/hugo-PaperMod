@@ -1,5 +1,7 @@
 {{- with site.Params.homeInfoParams }}
 <article class="first-entry home-info">
+  <img src="{{ $.Site.Params.profilePicture | relURL }}" alt="profile picture" />
+  <span>
     <header class="entry-header">
         <h1>{{ .Title | markdownify }}</h1>
     </header>
@@ -9,5 +11,6 @@
     <footer class="entry-footer">
         {{ partial "social_icons.html" site.Params.socialIcons }}
     </footer>
+  </span>
 </article>
 {{- end -}}
