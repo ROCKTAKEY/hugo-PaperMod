@@ -35,13 +35,13 @@
     margin-inline-end: 12px;
 }
 
-.social-icons a svg {
-    height: 26px;
-    width: 26px;
+.social-icons a i {
+    font-size: 26px;
 }
 
 code {
-    direction: ltr;
+  direction: ltr;
+  font-family: Consolas;
 }
 
 div.highlight,
@@ -65,4 +65,17 @@ pre {
 div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
+}
+
+article.first-entry.home-info {
+   flex-direction: row;
+   align-items: center;
+}
+
+article.first-entry.home-info img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: inline;
+    margin-right: 50px;
 }
