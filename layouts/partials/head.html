@@ -171,11 +171,6 @@
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
         onload="renderMathInElement(document.body);"></script>
 
-<link rel="shortcut icon" href="{{ .Site.Params.favicon | relURL }}favicon.ico" type="image/x-icon" />
-<link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.Params.favicon | relURL }}apple-touch-icon.png" />
-<link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.Params.favicon | relURL }}favicon-32x32.png" />
-<link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.Params.favicon | relURL }}favicon-16x16.png" />
-
 {{- /* Misc */}}
 {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
 {{- template "_internal/google_analytics.html" . }}
