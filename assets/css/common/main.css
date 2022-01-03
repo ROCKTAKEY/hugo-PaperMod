@@ -94,3 +94,9 @@ article.first-entry.home-info img {
         text-align: center;
     }
 }
+
+.katex-display > .katex {
+    overflow-x: auto;
+    padding: 1px;
+    overflow-y: hidden;
+}
