@@ -258,6 +258,7 @@
 }
 
 .post-content .note,
+.post-content .alert-note,
 .post-content .tip,
 .post-content .example,
 .post-content .question,
@@ -271,7 +272,7 @@
     border: 1px solid var(--border);
 }
 
-.post-content .note::before {
+.post-content .alert-note::before {
     content: "NOTE";
     font-weight: 100;
 }
@@ -296,14 +297,45 @@
     font-weight: 100;
 }
 
-.post-content .warning::before {
+.post-content .warning,
+.post-content .alert-warning
+{
+    position: relative;
+    margin: var(--gap);
+    padding: var(--gap);
+    background: var(--warning);
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+}
+
+.post-content .warning::before,
+.post-content .alert-warning::before
+{
     content: "WARNING";
     font-weight: 100;
+}
+
+.post-content .danger {
+    position: relative;
+    margin: var(--gap);
+    padding: var(--gap);
+    background: var(--danger);
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
 }
 
 .post-content .danger::before {
     content: "DANGER";
     font-weight: 100;
+}
+
+.post-content .error {
+    position: relative;
+    margin: var(--gap);
+    padding: var(--gap);
+    background: var(--danger);
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
 }
 
 .post-content .error::before {
