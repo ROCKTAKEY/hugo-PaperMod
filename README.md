@@ -1,3 +1,5 @@
+This is fork of [Hugo PaperMod](https://github.com/adityatelange/hugo-PaperMod), and some code is from [Hugo Anatole](https://github.com/lxndrblz/anatole).
+
 <h1 align=center>Hugo PaperMod | <a href="https://adityatelange.github.io/hugo-PaperMod/" rel="nofollow">Demo</a></h1>
 
 <h4 align=center>☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive</h4>
