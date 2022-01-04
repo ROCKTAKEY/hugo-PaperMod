@@ -257,6 +257,60 @@
     font-weight: normal;
 }
 
+.post-content .note,
+.post-content .tip,
+.post-content .example,
+.post-content .question,
+.post-content .info,
+{
+    position: relative;
+    margin: var(--gap);
+    padding: var(--gap);
+    background: var(--entry);
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+}
+
+.post-content .note::before {
+    content: "NOTE";
+    font-weight: 100;
+}
+
+.post-content .tip::before {
+    content: "TIP";
+    font-weight: 100;
+}
+
+.post-content .example::before {
+    content: "EXAMPLE";
+    font-weight: 100;
+}
+
+.post-content .question::before {
+    content: "QUESTION";
+    font-weight: 100;
+}
+
+.post-content .info::before {
+    content: "INFO";
+    font-weight: 100;
+}
+
+.post-content .warning::before {
+    content: "WARNING";
+    font-weight: 100;
+}
+
+.post-content .danger::before {
+    content: "DANGER";
+    font-weight: 100;
+}
+
+.post-content .error::before {
+    content: "ERROR";
+    font-weight: 100;
+}
+
 .toc {
     margin: 0 2px 40px 2px;
     border: 1px solid var(--border);
