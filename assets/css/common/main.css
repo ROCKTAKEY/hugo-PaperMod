@@ -39,6 +39,11 @@
     font-size: 26px;
 }
 
+/* Fix Simple icon misalignment */
+.social-icons i.si {
+  vertical-align: sub;
+}
+
 code {
   direction: ltr;
   font-family: "Consolas", "Courier New", monospace;
