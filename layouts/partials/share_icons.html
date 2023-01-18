@@ -68,4 +68,7 @@
         </svg>
     </a>
     {{- end }}
+{{- if (cond ($custom) (in $ShareButtons "hatena") (true)) }}
+    <a href="https://b.hatena.ne.jp/entry/{{ $pageurl }}" class="hatena-bookmark-button" data-hatena-bookmark-layout="touch-counter" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="30px" height="30px" style="border: none;" /></a>
+    {{- end }}
 </div>
