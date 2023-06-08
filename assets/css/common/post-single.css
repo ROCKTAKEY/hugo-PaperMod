@@ -257,7 +257,7 @@
 .post-content .tip,
 .post-content .example,
 .post-content .question,
-.post-content .info,
+.post-content .info
 {
     position: relative;
     margin: var(--gap);
